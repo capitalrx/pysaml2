@@ -18,6 +18,7 @@
 
 import logging
 from typing import Any
+from typing import Dict, List
 from typing import Optional
 from typing import Union
 from xml.etree import ElementTree
@@ -439,10 +440,10 @@ class SamlBase(ExtensionContainer):
     c_children: Any = {}
     c_attributes: Any = {}
     c_attribute_type: Any = {}
-    c_child_order: list[str] = []
-    c_cardinality: dict[str, dict[str, int]] = {}
-    c_any: Optional[dict[str, str]] = None
-    c_any_attribute: Optional[dict[str, str]] = None
+    c_child_order: List[str] = []
+    c_cardinality: Dict[str, Dict[str, int]] = {}
+    c_any: Optional[Dict[str, str]] = None
+    c_any_attribute: Optional[Dict[str, str]] = None
     c_value_type: Any = None
     c_ns_prefix = None
 

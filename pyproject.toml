@@ -36,7 +36,7 @@ merge_metadata = "saml2.tools.merge_metadata:main"
 parse_xsd2 = "saml2.tools.parse_xsd2:main"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 cryptography = ">=3.1"
 defusedxml = "*"
 importlib-metadata = {version = ">=1.7.0", python = "<3.8"}

@@ -1,3 +1,13 @@
+# CapoitalRx PySAML2 fork to support encryption selection on python 3.8
+
+This needs to be maintained until this branch is merged/released with PySAML2:
+https://github.com/IdentityPython/pysaml2/pull/924
+
+AND
+
+we have migrated to 3.12 runtime environment
+
+
 # PySAML2 - SAML2 for Python
 
 [![Version](https://img.shields.io/pypi/v/pysaml2)](https://pypi.org/project/pysaml2/)
