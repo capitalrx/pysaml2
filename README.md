@@ -1,4 +1,4 @@
-# CapoitalRx PySAML2 fork to support encryption selection on python 3.8
+# Capital Rx PySAML2 fork to support encryption selection on python 3.8
 
 This needs to be maintained until this branch is merged/released with PySAML2:
 https://github.com/IdentityPython/pysaml2/pull/924
